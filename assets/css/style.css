@@ -163,22 +163,33 @@ section {
     text-align: center;
 }
 
-.intro h2 {
+.section-title {
 
     font-size: 55px;
 
-    color: #024e76;
+    color: #024376;
 
     margin-bottom: 35px;
 
     padding: 0 100px 20px 100px;
 
+    display: inline-block;
+
     border-bottom: 3px solid;
 
-    border-color: #fce138;
-    
-    display: inline-block;
 }
+
+.primary-border {
+
+    border-color: #fce138;
+
+}
+
+.secodary-border {
+
+    border-color: #39a6b2;
+}
+
 
 .intro p {
 
@@ -192,4 +203,45 @@ section {
 /* using margin: 0 auto; is another tactic like display: inline-block;
 however, margin: 0 auto only works horizontally, not vertically. */
     margin: 0 auto;
+}
+
+.steps {
+
+    text-align: center;
+
+    background: #fce138;
+}
+
+.steps div {
+
+    margin-bottom: 80px;
+
+}
+
+.steps img {
+
+    width: 15%;
+
+}
+
+.steps h3 {
+
+    color: #024e76;
+
+    font-size: 46px;
+
+    margin-top: 10px;
+
+}
+
+.steps p {
+
+    color: #39a6b2;
+
+    font-size: 23px;
+}
+
+.steps span {
+
+    font-size: 38px;
 }
