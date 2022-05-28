@@ -203,7 +203,7 @@ however, margin: 0 auto only works horizontally, not vertically. */
 
 .trainer-bio {
 
-    padding: 35x;
+    padding: 35px;
     float: left;
     width: 65%;
 
@@ -221,6 +221,7 @@ however, margin: 0 auto only works horizontally, not vertically. */
     font-weight: lighter;
     font-size: 26px;
     margin-bottom: 25px;
+        
 }
 
 .trainer-bio p {
@@ -231,7 +232,7 @@ however, margin: 0 auto only works horizontally, not vertically. */
 }
 .text-left {
     text-align: left;
-}
+     }
 
 .text-right {
     text-align: right;
